@@ -1,0 +1,53 @@
+:root {
+    --website-bg:linear-gradient(90.63deg, #FFFBF4 21.32%, #F7FCF9 132.04%);
+    --button-color:rgba(255, 165, 2, 1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    background:var(--website-bg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo-menu {
+    display: flex;
+    gap: 80px ;
+}
+
+.menu {
+    display: flex;
+    gap: 60px;
+    margin-top: 30px;
+    font-family: "rubik";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+}
+
+.contact-bt {
+    width: 160px;
+    height: 60px;
+    background: rgba(17, 17, 22, 1);
+    box-shadow: 0px -10px 20px 0px rgba(88, 88, 103, 1) inset;
+    border-radius: 15px;
+    font-family: "rubik";
+    font-size: 16px;
+    color:rgba(255, 255, 255, 1);
+}
