@@ -1,0 +1,39 @@
+:root {
+    --website-bg:linear-gradient(90.63deg, #FFFBF4 21.32%, #F7FCF9 132.04%);
+    --button-color:rgba(255, 165, 2, 1);
+    --lightgrey-color:rgba(111, 111, 118, 1);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.trusted-company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0px;
+    gap: 40px;
+}
+
+.companies-container {
+    display: flex;
+    gap: 60px;
+}
+
+.trusted-company span {
+    font-family: "poppins";
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.promedia {
+    border-radius: 20px;
+    box-shadow: 5px 30px 60px 0px rgba(85, 85, 85, 0.1);
+    margin: 0px 10px;
+}
