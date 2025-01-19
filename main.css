@@ -88,6 +88,7 @@
     align-items: center;
     background: var(--website-bg);
     gap: 60px;
+    margin: 0px 100px;
 }
 
 .departments-title {
@@ -103,7 +104,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 .department-card {
@@ -145,4 +146,19 @@
 .learnmore-link {
     display: flex;
     gap: 15px;
+}
+
+.departments-section button {
+    width: 218px;
+    height: 64px;
+    background: var(--button-color);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
+    font-family: "Rubik";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color:rgba(255, 251, 244, 1);
+    margin-bottom: 100px;
 }
