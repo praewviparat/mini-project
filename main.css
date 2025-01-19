@@ -11,6 +11,9 @@
     box-sizing: border-box;
 }
 
+/* Trustesd-Company Section*/
+
+
 .trusted-company {
     display: flex;
     flex-direction: column;
@@ -37,6 +40,9 @@
     box-shadow: 5px 30px 60px 0px rgba(85, 85, 85, 0.1);
     margin: 0px 10px;
 }
+
+
+/* Get-Started Section */
 
 
 .get-started-section {
@@ -80,4 +86,259 @@
     color: rgba(255, 255, 255, 1);
     font-weight: 500;
     margin-top: 40px;
+}
+
+
+/* Department Section */
+
+
+.departments-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--website-bg);
+    gap: 60px;
+    margin: 0px 100px;
+}
+
+.departments-title {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 120px;
+}
+  
+.departments-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.department-card {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 510px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: 5px 30px 50px 0px rgba(43, 42, 42, 0.05);
+    padding: 30px;
+    gap: 10px;
+}
+
+.gray-box {
+    width: 393px;
+    height: 280px;
+    border-radius: 20px 20px 0px 0px;
+    background: rgba(196, 196, 196, 1);
+    margin-bottom: 10px;
+}
+
+
+.department-card h4 {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.department-card span {
+    font-family: "Rubik";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    color: var(--lightgrey-color);
+}
+
+.learnmore-link {
+    display: flex;
+    gap: 15px;
+}
+
+.departments-section button {
+    width: 218px;
+    height: 64px;
+    background: var(--button-color);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
+    font-family: "Rubik";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color:rgba(255, 251, 244, 1);
+    margin-bottom: 100px;
+}
+
+/* Teacher Section */
+
+.teachers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 20px;
+}
+
+.teachers-header {
+    display: flex;
+    justify-content:space-between;
+    margin: 100px 400px;
+}
+
+.teachers-header h3 {
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.teachers-header button {
+    width: 193px;
+    height: 64px;
+    background-color:var(--button-color);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
+    font-family: "Rubik";
+    color:rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.teacher-container {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin: 10px;
+}
+
+.teacher-img {
+    margin: 30px;
+}
+
+.teacher-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.teacher-name {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.teacher-position {
+    font-family: "Rubik";
+    font-size: 18px;
+    color:rgba(111, 111, 118, 1);
+}
+
+.socialmedia-contact {
+    display: flex;
+    gap: 16px;
+    margin: 20px;
+}
+
+/* Reviews Section */
+
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+    gap:200px;
+}
+
+
+.bottom-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 695px;
+    height: 344px;
+    background:rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0px 15px 35px 0px rgba(0, 0, 0, 0.05);
+    gap: 20px;
+    padding: 45px;
+    z-index: 1;
+    position: relative;
+    top: 290px;
+    right: 100px;
+}
+
+.bottom-card span {
+    color: #6F6F76;
+}
+
+.front-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 695px;
+    height: 344px;
+    background:rgba(255, 165, 2, 1);
+    border: none;
+    border-radius: 18px;
+    box-shadow:-10px 20px 40px 0px rgba(255, 165, 2, 0.4);
+    gap: 20px;
+    padding: 45px;
+    z-index: 2;
+    position: relative;
+    bottom: 200px;
+    left: 19.5px;
+}
+
+.front-card span {
+    color:rgba(255, 255, 255, 1);
+    ;
+}
+
+.review-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewer-profile {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.reviewer-name {
+    font-family: "Poppins";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.reviewer-occupation {
+    font-family: "Rubik";
+    font-size: 19px;
+}
+
+.review-text {
+    font-family: "Rubik";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+.review-paragraph h3 {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    color:rgba(17, 17, 22, 1);
+}
+.review-paragraph span {
+    font-family: "Rubik";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    color: var(--lightgrey-color);
 }
