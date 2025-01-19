@@ -11,6 +11,9 @@
     box-sizing: border-box;
 }
 
+/* Trustesd-Company Section*/
+
+
 .trusted-company {
     display: flex;
     flex-direction: column;
@@ -37,6 +40,9 @@
     box-shadow: 5px 30px 60px 0px rgba(85, 85, 85, 0.1);
     margin: 0px 10px;
 }
+
+
+/* Get-Started Section */
 
 
 .get-started-section {
@@ -81,6 +87,10 @@
     font-weight: 500;
     margin-top: 40px;
 }
+
+
+/* Department Section */
+
 
 .departments-section {
     display: flex;
@@ -161,4 +171,75 @@
     line-height: 26px;
     color:rgba(255, 251, 244, 1);
     margin-bottom: 100px;
+}
+
+/* Teacher Section */
+
+.teachers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px 20px;
+}
+
+.teachers-header {
+    display: flex;
+    justify-content:space-between;
+    padding: 50px;
+    margin: 50px 150px;
+}
+
+.teachers-header h3 {
+    font-family: "Poppins";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.teachers-header button {
+    width: 193px;
+    height: 64px;
+    background-color:var(--button-color);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
+    font-family: "Rubik";
+    color:rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.teacher-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin: 10px;
+}
+
+.teacher-img {
+    margin: 30px;
+}
+
+.teacher-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.teacher-name {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.teacher-position {
+    font-family: "Rubik";
+    font-size: 18px;
+    color:rgba(111, 111, 118, 1);
+}
+
+.socialmedia-contact {
+    display: flex;
+    gap: 16px;
+    margin: 20px;
 }
