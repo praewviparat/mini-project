@@ -351,3 +351,48 @@
     bottom: 150px;
     z-index: 3;
 }
+
+/* create-new-acc-section */
+
+.create-new-acc {
+    display: flex;
+    align-items: center;
+    background-color:rgba(42, 42, 49, 1);
+    margin-top: 200px;
+    padding: 30px;
+}
+
+.create-container {
+    display: flex;
+    align-items: center;
+    gap: 90px;
+    margin-left: 140px;
+    padding: 20px;
+}
+
+.create-acc-text {
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    color:rgba(255, 255, 255, 1);   
+}
+
+.create-new-acc button {
+    width: 163px;
+    height: 64px;
+    border: none;
+    border-radius: 15px;
+    background:var(--button-color);
+    font-family: "Rubik";
+    font-size: 16px;
+    font-weight: 500;
+    color:rgba(255, 255, 255, 1);
+    box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.15);
+}
+
+.arrow {
+    position:relative;
+    top: 25px;
+    right: 330px;
+}
