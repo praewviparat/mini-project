@@ -342,3 +342,12 @@
     line-height: 36px;
     color: var(--lightgrey-color);
 }
+
+.review-button {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left:565px;
+    bottom: 150px;
+    z-index: 3;
+}
