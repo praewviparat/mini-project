@@ -143,6 +143,8 @@
     font-size: 24px;
     font-weight: 700;
     line-height: 34px;
+    color:rgba(59, 59, 59, 1);
+
 }
 
 .department-card span {
@@ -229,6 +231,8 @@
     font-family: "Poppins";
     font-size: 40px;
     font-weight: 700;
+    color:rgba(59, 59, 59, 1);
+    ;
 }
 
 .teacher-position {
@@ -273,7 +277,7 @@
 }
 
 .bottom-card span {
-    color: #6F6F76;
+    color:rgba(111, 111, 118, 1);
 }
 
 .front-card {
@@ -352,6 +356,11 @@
     z-index: 3;
 }
 
+.mq-review-button {
+    display: none;
+}
+
+
 /* create-new-acc-section */
 
 .create-new-acc {
@@ -390,9 +399,197 @@
     color:rgba(255, 255, 255, 1);
     box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.15);
 }
+.vertical-arrow {
+    display: none;
+}
 
 .arrow {
     position:relative;
     top: 25px;
     right: 330px;
+}
+
+/****** Media Query 600px ******/
+
+@media only screen and (max-width:600px) {
+    
+    /******* Trustesd-Company Section******/
+    .trusted-company {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 70px;    
+    }
+    .trusted-company span {
+        font-size: 24px;
+    }
+    .companies-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .promedia {
+        border-radius: 20px;
+        box-shadow: 5px 30px 60px 0px rgba(85, 85, 85, 0.1);
+    }
+
+    /****** Get-Started Section ******/
+    .get-started-section {
+        flex-direction: column;
+        margin: 60px 0px 0px 0px;
+        padding: 20px;
+    }
+    .get-started-section img  {
+        width: 100%;
+    }
+    .get-started-title {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .get-started-paragraph{
+        padding-right: 20px;
+        line-height:36px;
+    }
+    .get-started-paragraph br {
+        display: none;
+    }
+    
+    /****** Department Section ******/
+    .departments-section {
+        width: 100%;
+        margin: 0px;
+        gap: 30px;    
+    }
+    .departments-title {
+        font-size: 24px;
+        line-height: 34px;
+        margin-top: 80px;
+    }
+    .departments-container {
+        flex-direction: column;
+        margin: 10px
+    }
+    .department-card, .gray-box {
+        width: 100%;
+    }
+
+    .department-card br {
+        display: none;
+    }
+
+    /****** Teachers Section ******/
+    .teachers {
+        margin: 50px 0px;
+    }
+
+    .teachers-header {
+        flex-direction: column;
+        margin: 20px;
+        gap: 24px;
+    }
+    .teachers-header h3 {
+        font-size: 24px;
+    }
+    .teacher-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .teacher-img {
+        width: 90%;
+        margin: 0px;
+    }
+    
+    .teacher-name {
+        font-size: 28px;
+    }
+
+    /****** Review Section ******/
+    .reviews {
+        flex-direction: column-reverse;
+        margin: 24px 24px 0px 24px;
+        gap: 30px;
+    }
+    .review-card {
+        height: 750px;
+    }
+    
+    .review-paragraph br ,.review-text br {
+        display: none;
+    }
+    .review-paragraph {
+        padding-right: 15px;
+    }
+    .review-paragraph h3 {
+        font-size: 24px;
+        line-height: 34px;
+        margin: 0px 20px 16px 0px;
+    }
+    .bottom-card, .front-card {
+        width: 100%;
+        height: auto;
+        padding:35px;
+    }
+    .review-header {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .review-card img {
+        width: 60%;
+        height: auto;
+    }
+    .reviewer-profile img {
+        width: 30%;
+        height: auto;
+    }
+    .bottom-card {
+        top: 160px;
+        right: 10px;
+        opacity: 60%;
+    }
+    .front-card {
+        left: 0px;
+        bottom: 510px;
+    }
+    .review-button{
+        display: none;
+    }
+    .mq-review-button {
+        width: 20%;
+        display: flex;
+        position: relative;
+        bottom: 470px;
+        left:275px;
+        gap: 16px;
+        z-index: 3;
+    }
+
+    /******create-new-acc-section******/
+    .create-new-acc {
+        margin-top: 40px;
+        padding: 0;
+    }
+    .create-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 20px 0px;
+        gap: 30px;
+    }
+    .create-acc-text {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .arrow {
+        display: none;
+    }
+    
+    .vertical-arrow {
+        display: block;
+        position: relative;
+        bottom: 10px;
+        right: 90px;  
+    }
+    
 }

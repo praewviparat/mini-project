@@ -10,12 +10,8 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
-}
-
 header {
+    width: 100%;
     background:var(--website-bg);
 }
 
@@ -32,10 +28,14 @@ nav {
     gap: 80px ;
 }
 
+.menu-icon {
+    display: none;
+}
+
 .menu {
     display: flex;
     gap: 60px;
-    margin-top: 30px;
+    margin-top: 15px;
     font-family: "rubik";
     font-size: 18px;
     font-weight: 400;
@@ -166,3 +166,87 @@ nav {
     font-weight: 500;
 }
 
+
+/******media query 600px ******/
+
+@media only screen and (max-width:600px) {
+
+    nav {
+        margin: 0px;
+    }
+    .menu,.contact-bt {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .logo-menu {
+        justify-content: space-between;
+    }
+    
+    .header-content {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .header-content img {
+        width: 100%;
+    }
+
+    .email-card {
+        width: 87px;
+        height: 48px;
+        border-radius: 8px;
+        left: -5px;
+        top: 45px; 
+    }
+    
+    .email-icon {
+        bottom: 25px;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .email-card .congrats,
+    .email-card .new-email,
+    .liked-card .text {
+        font-size: 7px;
+    }
+
+    .liked-card {
+        width: 87px;
+        height: 87px;
+        border-radius: 8px;
+        gap:4px;
+        right: 0px;
+        top: 30px;
+    }
+    
+    .liked-card .number {
+        font-size: 13px;
+        
+    }
+
+    .heart-icon {
+        width: 40px;
+        height: 40px;
+        bottom: 62px;
+    }
+    
+    .image-icon {
+        width: 66px;
+        height: 20px;
+    }
+
+    .left-container {
+        align-items: flex-start;
+        padding: 0px;
+        margin: 0px 50px 50px 10px;
+    }
+
+    .left-container h1 {
+        font-size: 30px;
+    }
+}
