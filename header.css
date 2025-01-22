@@ -1,252 +1,250 @@
 :root {
-    --website-bg:linear-gradient(90.63deg, #FFFBF4 21.32%, #F7FCF9 132.04%);
-    --button-color:rgba(255, 165, 2, 1);
-    --lightgrey-color:rgba(111, 111, 118, 1);
+  --website-bg: linear-gradient(90.63deg, #fffbf4 21.32%, #f7fcf9 132.04%);
+  --button-color: rgba(255, 165, 2, 1);
+  --lightgrey-color: rgba(111, 111, 118, 1);
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 header {
-    width: 100%;
-    background:var(--website-bg);
+  width: 100%;
+  background: var(--website-bg);
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-    margin: 0px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  margin: 0px 200px;
 }
 
 .logo-menu {
-    display: flex;
-    gap: 80px ;
+  display: flex;
+  gap: 80px;
 }
 
 .menu-icon {
-    display: none;
+  display: none;
 }
 
 .menu {
-    display: flex;
-    gap: 60px;
-    margin-top: 15px;
-    font-family: "rubik";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 21px;
-    text-align: center;
+  display: flex;
+  gap: 60px;
+  margin-top: 15px;
+  font-family: "rubik";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
 }
 
 .contact-bt {
-    width: 160px;
-    height: 60px;
-    background: rgba(17, 17, 22, 1);
-    box-shadow: 0px -10px 20px 0px rgba(88, 88, 103, 1) inset;
-    border-radius: 15px;
-    font-family: "rubik";
-    font-size: 16px;
-    color:rgba(255, 255, 255, 1);
+  width: 160px;
+  height: 60px;
+  background: rgba(17, 17, 22, 1);
+  box-shadow: 0px -10px 20px 0px rgba(88, 88, 103, 1) inset;
+  border-radius: 15px;
+  font-family: "rubik";
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .header-content {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 80px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
 }
 
 .right-container {
-    position: relative;
+  position: relative;
 }
 
 .email-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    top: 100px;
-    left: -25px;
-    width: 200px;
-    height: 100px;
-    border-radius: 20px;
-    box-shadow: 5px 15px 50px 0px rgba(0, 0, 0, 0.1);
-    background-color:rgba(255, 255, 255, 1); 
-    gap: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 100px;
+  left: -25px;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  box-shadow: 5px 15px 50px 0px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 1);
+  gap: 5px;
 }
 
 .email-icon {
-    position: absolute;
-    bottom: 50px;
+  position: absolute;
+  bottom: 50px;
 }
 
 .email-card .congrats {
-    font-family: "poppins";
-    font-size: 16px;
-    font-weight: 600;
+  font-family: "poppins";
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .email-card .new-email {
-    font-family: "rubik";
-    font-size: 16px;
-    font-weight: 400;
-    color:var(--lightgrey-color)
+  font-family: "rubik";
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--lightgrey-color);
 }
 
 .liked-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    right: 20px;
-    top: 45px;
-    width: 200px;
-    height: 200px;
-    background: rgba(255, 255, 255, 1);
-    border-radius: 20px;
-    box-shadow: 5px 15px 50px 0px rgba(0, 0, 0, 0.1);
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  top: 45px;
+  width: 200px;
+  height: 200px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  box-shadow: 5px 15px 50px 0px rgba(0, 0, 0, 0.1);
+  gap: 10px;
 }
 
 .heart-icon {
-    position: absolute;
-    bottom:150px;
+  position: absolute;
+  bottom: 150px;
 }
 .liked-card .number {
-    font-family: "poppins";
-    font-size: 30px;
-    font-weight: 700;
+  font-family: "poppins";
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .liked-card .text {
-    font-family:"rubik" ;
-    font-size: 18px;
-    color:var(--lightgrey-color)
+  font-family: "rubik";
+  font-size: 18px;
+  color: var(--lightgrey-color);
 }
 
-.left-container{
-    display: flex;  
-    flex-direction: column;
-    gap: 20px;
-    padding:10px;
-    margin: 30px 0px 0px 50px;
+.left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+  margin: 30px 0px 0px 50px;
 }
 
 .left-container h1 {
-    font-size: 60px;
-    font-family: "poppins";
-    font-weight: 700;
-    line-height: 1.2;   
+  font-size: 60px;
+  font-family: "poppins";
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .left-container span {
-    font-family: "rubik";
-    font-size: 18px;
-    color: var(--lightgrey-color);
-    line-height: 2;
+  font-family: "rubik";
+  font-size: 18px;
+  color: var(--lightgrey-color);
+  line-height: 2;
 }
 
 .discover-bt {
-    width: 180px;
-    height: 70px;
-    margin-top: 30px;
-    background:var(--button-color);
-    box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
-    border-radius: 15px;
-    border: none;
-    color:rgba(255, 255, 255, 1);
-    font-family: "rubik";
-    font-size: 16px;
-    font-weight: 500;
+  width: 180px;
+  height: 70px;
+  margin-top: 30px;
+  background: var(--button-color);
+  box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
+  border-radius: 15px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
+  font-family: "rubik";
+  font-size: 16px;
+  font-weight: 500;
 }
-
 
 /******media query 600px ******/
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) {
+  nav {
+    margin: 0px;
+  }
+  .menu,
+  .contact-bt {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .logo-menu {
+    justify-content: space-between;
+  }
 
-    nav {
-        margin: 0px;
-    }
-    .menu,.contact-bt {
-        display: none;
-    }
-    .menu-icon {
-        display: block;
-    }
-    .logo-menu {
-        justify-content: space-between;
-    }
-    
-    .header-content {
-        flex-direction: column-reverse;
-        align-items: center;
-        padding: 20px;
-        margin-top: 20px;
-    }
+  .header-content {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+  }
 
-    .header-content img {
-        width: 100%;
-    }
+  .header-content img {
+    width: 100%;
+  }
 
-    .email-card {
-        width: 87px;
-        height: 48px;
-        border-radius: 8px;
-        left: -5px;
-        top: 45px; 
-    }
-    
-    .email-icon {
-        bottom: 25px;
-        width: 40px;
-        height: 40px;
-    }
-    
-    .email-card .congrats,
-    .email-card .new-email,
-    .liked-card .text {
-        font-size: 7px;
-    }
+  .email-card {
+    width: 87px;
+    height: 48px;
+    border-radius: 8px;
+    left: -5px;
+    top: 45px;
+  }
 
-    .liked-card {
-        width: 87px;
-        height: 87px;
-        border-radius: 8px;
-        gap:4px;
-        right: 0px;
-        top: 30px;
-    }
-    
-    .liked-card .number {
-        font-size: 13px;
-        
-    }
+  .email-icon {
+    bottom: 25px;
+    width: 40px;
+    height: 40px;
+  }
 
-    .heart-icon {
-        width: 40px;
-        height: 40px;
-        bottom: 62px;
-    }
-    
-    .image-icon {
-        width: 66px;
-        height: 20px;
-    }
+  .email-card .congrats,
+  .email-card .new-email,
+  .liked-card .text {
+    font-size: 7px;
+  }
 
-    .left-container {
-        align-items: flex-start;
-        padding: 0px;
-        margin: 0px 50px 50px 10px;
-    }
+  .liked-card {
+    width: 87px;
+    height: 87px;
+    border-radius: 8px;
+    gap: 4px;
+    right: 0px;
+    top: 30px;
+  }
 
-    .left-container h1 {
-        font-size: 30px;
-    }
+  .liked-card .number {
+    font-size: 13px;
+  }
+
+  .heart-icon {
+    width: 40px;
+    height: 40px;
+    bottom: 62px;
+  }
+
+  .image-icon {
+    width: 66px;
+    height: 20px;
+  }
+
+  .left-container {
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px 50px 50px 10px;
+  }
+
+  .left-container h1 {
+    font-size: 30px;
+  }
 }

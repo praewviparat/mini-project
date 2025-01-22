@@ -1,595 +1,583 @@
 :root {
-    --website-bg:linear-gradient(90.63deg, #FFFBF4 21.32%, #F7FCF9 132.04%);
-    --button-color:rgba(255, 165, 2, 1);
-    --lightgrey-color:rgba(111, 111, 118, 1);
+  --website-bg: linear-gradient(90.63deg, #fffbf4 21.32%, #f7fcf9 132.04%);
+  --button-color: rgba(255, 165, 2, 1);
+  --lightgrey-color: rgba(111, 111, 118, 1);
 }
 
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* Trustesd-Company Section*/
 
-
 .trusted-company {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px 0px;
-    gap: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
+  gap: 40px;
 }
 
 .companies-container {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .trusted-company span {
-    font-family: "poppins";
-    font-size: 40px;
-    font-weight: 700;
-    text-align: center;
-
+  font-family: "poppins";
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .promedia {
-    border-radius: 20px;
-    box-shadow: 5px 30px 60px 0px rgba(85, 85, 85, 0.1);
-    margin: 0px 10px;
+  border-radius: 20px;
+  box-shadow: 5px 30px 60px 0px rgba(85, 85, 85, 0.1);
+  margin: 0px 10px;
 }
-
 
 /* Get-Started Section */
 
-
 .get-started-section {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 130px 0px 100px 0px;
-    padding: 50px;
-    gap: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 130px 0px 100px 0px;
+  padding: 50px;
+  gap: 60px;
 }
-.get-started-content{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.get-started-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .get-started-title {
-    font-family: "Poppins";
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 58px;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
 }
 
 .get-started-paragraph {
-    font-family: "Rubik";
-    color: var(--lightgrey-color);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.8;
+  font-family: "Rubik";
+  color: var(--lightgrey-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8;
 }
 .get-started-content button {
-    background: var(--button-color);
-    width: 205px;
-    height: 64px;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
-    margin: 20px 0px;
-    font-family: "Rubik";
-    font-size: 16px;
-    color: rgba(255, 255, 255, 1);
-    font-weight: 500;
-    margin-top: 40px;
+  background: var(--button-color);
+  width: 205px;
+  height: 64px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
+  margin: 20px 0px;
+  font-family: "Rubik";
+  font-size: 16px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  margin-top: 40px;
 }
-
 
 /* Department Section */
 
-
 .departments-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background: var(--website-bg);
-    gap: 60px;
-    margin: 0px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--website-bg);
+  gap: 60px;
+  margin: 0px 100px;
 }
 
 .departments-title {
-    font-family: "Poppins";
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 58px;
-    text-align: center;
-    margin-top: 120px;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  text-align: center;
+  margin-top: 120px;
 }
-  
+
 .departments-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
 }
 
 .department-card {
-    display: flex;
-    flex-direction: column;
-    width: 450px;
-    height: 510px;
-    background-color: rgba(255, 255, 255, 1);
-    border-radius: 20px;
-    box-shadow: 5px 30px 50px 0px rgba(43, 42, 42, 0.05);
-    padding: 30px;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+  height: 510px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+  box-shadow: 5px 30px 50px 0px rgba(43, 42, 42, 0.05);
+  padding: 30px;
+  gap: 10px;
 }
 
 .gray-box {
-    width: 393px;
-    height: 280px;
-    border-radius: 20px 20px 0px 0px;
-    background: rgba(196, 196, 196, 1);
-    margin-bottom: 10px;
+  width: 393px;
+  height: 280px;
+  border-radius: 20px 20px 0px 0px;
+  background: rgba(196, 196, 196, 1);
+  margin-bottom: 10px;
 }
 
-
 .department-card h4 {
-    font-family: "Poppins";
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 34px;
-    color:rgba(59, 59, 59, 1);
-
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  color: rgba(59, 59, 59, 1);
 }
 
 .department-card span {
-    font-family: "Rubik";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 32px;
-    color: var(--lightgrey-color);
+  font-family: "Rubik";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--lightgrey-color);
 }
 
 .learnmore-link {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 15px;
 }
 
 .departments-section button {
-    width: 218px;
-    height: 64px;
-    background: var(--button-color);
-    border: none;
-    border-radius: 15px;
-    box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
-    font-family: "Rubik";
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 26px;
-    color:rgba(255, 251, 244, 1);
-    margin-bottom: 100px;
+  width: 218px;
+  height: 64px;
+  background: var(--button-color);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: rgba(255, 251, 244, 1);
+  margin-bottom: 100px;
 }
 
 /* Teacher Section */
 
 .teachers {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 20px;
 }
 
 .teachers-header {
-    display: flex;
-    justify-content:space-between;
-    margin: 100px 400px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 400px;
 }
 
 .teachers-header h3 {
-    font-family: "Poppins";
-    font-size: 28px;
-    font-weight: 700;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 700;
 }
 
 .teachers-header button {
-    width: 193px;
-    height: 64px;
-    background-color:var(--button-color);
-    border: none;
-    border-radius: 15px;
-    box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
-    font-family: "Rubik";
-    color:rgba(255, 255, 255, 1);
-    font-size: 16px;
-    font-weight: 500;
+  width: 193px;
+  height: 64px;
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.3);
+  font-family: "Rubik";
+  color: rgba(255, 255, 255, 1);
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .teacher-container {
-    display: flex;
-    justify-content: center;
-    gap: 90px;
-    margin: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  margin: 10px;
 }
 
 .teacher-img {
-    margin: 30px;
+  margin: 30px;
 }
 
 .teacher-card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .teacher-name {
-    font-family: "Poppins";
-    font-size: 40px;
-    font-weight: 700;
-    color:rgba(59, 59, 59, 1);
-    ;
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(59, 59, 59, 1);
 }
 
 .teacher-position {
-    font-family: "Rubik";
-    font-size: 18px;
-    color:rgba(111, 111, 118, 1);
+  font-family: "Rubik";
+  font-size: 18px;
+  color: rgba(111, 111, 118, 1);
 }
 
 .socialmedia-contact {
-    display: flex;
-    gap: 16px;
-    margin: 20px;
+  display: flex;
+  gap: 16px;
+  margin: 20px;
 }
 
 /* Reviews Section */
 
 .reviews {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 80px;
-    gap:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+  gap: 200px;
 }
 
-
 .bottom-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 695px;
-    height: 344px;
-    background:rgba(255, 255, 255, 1);
-    border: none;
-    border-radius: 18px;
-    box-shadow: 0px 15px 35px 0px rgba(0, 0, 0, 0.05);
-    gap: 20px;
-    padding: 45px;
-    z-index: 1;
-    position: relative;
-    top: 290px;
-    right: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 695px;
+  height: 344px;
+  background: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 18px;
+  box-shadow: 0px 15px 35px 0px rgba(0, 0, 0, 0.05);
+  gap: 20px;
+  padding: 45px;
+  z-index: 1;
+  position: relative;
+  top: 290px;
+  right: 100px;
 }
 
 .bottom-card span {
-    color:rgba(111, 111, 118, 1);
+  color: rgba(111, 111, 118, 1);
 }
 
 .front-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 695px;
-    height: 344px;
-    background:rgba(255, 165, 2, 1);
-    border: none;
-    border-radius: 18px;
-    box-shadow:-10px 20px 40px 0px rgba(255, 165, 2, 0.4);
-    gap: 20px;
-    padding: 45px;
-    z-index: 2;
-    position: relative;
-    bottom: 200px;
-    left: 19.5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 695px;
+  height: 344px;
+  background: rgba(255, 165, 2, 1);
+  border: none;
+  border-radius: 18px;
+  box-shadow: -10px 20px 40px 0px rgba(255, 165, 2, 0.4);
+  gap: 20px;
+  padding: 45px;
+  z-index: 2;
+  position: relative;
+  bottom: 200px;
+  left: 19.5px;
 }
 
 .front-card span {
-    color:rgba(255, 255, 255, 1);
-    ;
+  color: rgba(255, 255, 255, 1);
 }
 
 .review-header {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .reviewer-profile {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .reviewer-name {
-    font-family: "Poppins";
-    font-size: 24px;
-    font-weight: 700;
+  font-family: "Poppins";
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .reviewer-occupation {
-    font-family: "Rubik";
-    font-size: 19px;
+  font-family: "Rubik";
+  font-size: 19px;
 }
 
 .review-text {
-    font-family: "Rubik";
-    font-size: 24px;
-    font-weight: 400;
-    line-height: 48px;
+  font-family: "Rubik";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
 }
 
 .review-paragraph h3 {
-    font-family: "Poppins";
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 58px;
-    color:rgba(17, 17, 22, 1);
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  color: rgba(17, 17, 22, 1);
 }
 .review-paragraph span {
-    font-family: "Rubik";
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 36px;
-    color: var(--lightgrey-color);
+  font-family: "Rubik";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  color: var(--lightgrey-color);
 }
 
 .review-button {
-    display: flex;
-    gap: 20px;
-    position: relative;
-    left:565px;
-    bottom: 150px;
-    z-index: 3;
+  display: flex;
+  gap: 20px;
+  position: relative;
+  left: 565px;
+  bottom: 150px;
+  z-index: 3;
 }
 
 .mq-review-button {
-    display: none;
+  display: none;
 }
-
 
 /* create-new-acc-section */
 
 .create-new-acc {
-    display: flex;
-    align-items: center;
-    background-color:rgba(42, 42, 49, 1);
-    margin-top: 200px;
-    padding: 40px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(42, 42, 49, 1);
+  margin-top: 200px;
+  padding: 40px;
 }
 
 .create-container {
-    display: flex;
-    align-items: center;
-    gap: 90px;
-    margin-left: 140px;
-    padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  margin-left: 140px;
+  padding: 20px;
 }
 
 .create-acc-text {
-    font-family: "Poppins";
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 58px;
-    color:rgba(255, 255, 255, 1);   
+  font-family: "Poppins";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .create-new-acc button {
-    width: 163px;
-    height: 64px;
-    border: none;
-    border-radius: 15px;
-    background:var(--button-color);
-    font-family: "Rubik";
-    font-size: 16px;
-    font-weight: 500;
-    color:rgba(255, 255, 255, 1);
-    box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.15);
+  width: 163px;
+  height: 64px;
+  border: none;
+  border-radius: 15px;
+  background: var(--button-color);
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 5px 10px 30px 0px rgba(255, 165, 2, 0.15);
 }
 .vertical-arrow {
-    display: none;
+  display: none;
 }
 
 .arrow {
-    position:relative;
-    top: 25px;
-    right: 330px;
+  position: relative;
+  top: 25px;
+  right: 330px;
 }
 
 /****** Media Query 600px ******/
 
-@media only screen and (max-width:600px) {
-    
-    /******* Trustesd-Company Section******/
-    .trusted-company {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 70px;    
-    }
-    .trusted-company span {
-        font-size: 24px;
-    }
-    .companies-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
-    .promedia {
-        border-radius: 20px;
-        box-shadow: 5px 30px 60px 0px rgba(85, 85, 85, 0.1);
-    }
+@media only screen and (max-width: 600px) {
+  /******* Trustesd-Company Section******/
+  .trusted-company {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  .trusted-company span {
+    font-size: 24px;
+  }
+  .companies-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .promedia {
+    border-radius: 20px;
+    box-shadow: 5px 30px 60px 0px rgba(85, 85, 85, 0.1);
+  }
 
-    /****** Get-Started Section ******/
-    .get-started-section {
-        flex-direction: column;
-        margin: 60px 0px 0px 0px;
-        padding: 20px;
-    }
-    .get-started-section img  {
-        width: 100%;
-    }
-    .get-started-title {
-        font-size: 24px;
-        line-height: 34px;
-    }
-    .get-started-paragraph{
-        padding-right: 20px;
-        line-height:36px;
-    }
-    .get-started-paragraph br {
-        display: none;
-    }
-    
-    /****** Department Section ******/
-    .departments-section {
-        width: 100%;
-        margin: 0px;
-        gap: 30px;    
-    }
-    .departments-title {
-        font-size: 24px;
-        line-height: 34px;
-        margin-top: 80px;
-    }
-    .departments-container {
-        flex-direction: column;
-        margin: 10px
-    }
-    .department-card, .gray-box {
-        width: 100%;
-    }
+  /****** Get-Started Section ******/
+  .get-started-section {
+    flex-direction: column;
+    margin: 60px 0px 0px 0px;
+    padding: 20px;
+  }
+  .get-started-section img {
+    width: 100%;
+  }
+  .get-started-title {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .get-started-paragraph {
+    padding-right: 20px;
+    line-height: 36px;
+  }
+  .get-started-paragraph br {
+    display: none;
+  }
 
-    .department-card br {
-        display: none;
-    }
+  /****** Department Section ******/
+  .departments-section {
+    width: 100%;
+    margin: 0px;
+    gap: 30px;
+  }
+  .departments-title {
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 80px;
+  }
+  .departments-container {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .department-card,
+  .gray-box {
+    width: 100%;
+  }
 
-    /****** Teachers Section ******/
-    .teachers {
-        margin: 50px 0px;
-    }
+  .department-card br {
+    display: none;
+  }
 
-    .teachers-header {
-        flex-direction: column;
-        margin: 20px;
-        gap: 24px;
-    }
-    .teachers-header h3 {
-        font-size: 24px;
-    }
-    .teacher-container {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 100px;
-    }
+  /****** Teachers Section ******/
+  .teachers {
+    margin: 50px 0px;
+  }
 
-    .teacher-img {
-        width: 90%;
-        margin: 0px;
-    }
-    
-    .teacher-name {
-        font-size: 28px;
-    }
+  .teachers-header {
+    flex-direction: column;
+    margin: 20px;
+    gap: 24px;
+  }
+  .teachers-header h3 {
+    font-size: 24px;
+  }
+  .teacher-container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
 
-    /****** Review Section ******/
-    .reviews {
-        flex-direction: column-reverse;
-        margin: 24px 24px 0px 24px;
-        gap: 30px;
-    }
-    .review-card {
-        height: 750px;
-    }
-    
-    .review-paragraph br ,.review-text br {
-        display: none;
-    }
-    .review-paragraph {
-        padding-right: 15px;
-    }
-    .review-paragraph h3 {
-        font-size: 24px;
-        line-height: 34px;
-        margin: 0px 20px 16px 0px;
-    }
-    .bottom-card, .front-card {
-        width: 100%;
-        height: auto;
-        padding:35px;
-    }
-    .review-header {
-        flex-direction: column;
-        gap: 16px;
-    }
-    .review-card img {
-        width: 60%;
-        height: auto;
-    }
-    .reviewer-profile img {
-        width: 30%;
-        height: auto;
-    }
-    .bottom-card {
-        top: 160px;
-        right: 10px;
-        opacity: 60%;
-    }
-    .front-card {
-        left: 0px;
-        bottom: 510px;
-    }
-    .review-button{
-        display: none;
-    }
-    .mq-review-button {
-        width: 20%;
-        display: flex;
-        position: relative;
-        bottom: 470px;
-        left:275px;
-        gap: 16px;
-        z-index: 3;
-    }
+  .teacher-img {
+    width: 90%;
+    margin: 0px;
+  }
 
-    /******create-new-acc-section******/
-    .create-new-acc {
-        margin-top: 40px;
-        padding: 0;
-    }
-    .create-container {
-        flex-direction: column;
-        align-items: flex-start;
-        margin: 20px 0px;
-        gap: 30px;
-    }
-    .create-acc-text {
-        font-size: 24px;
-        line-height: 34px;
-    }
-    .arrow {
-        display: none;
-    }
-    
-    .vertical-arrow {
-        display: block;
-        position: relative;
-        bottom: 10px;
-        right: 90px;  
-    }
-    
+  .teacher-name {
+    font-size: 28px;
+  }
+
+  /****** Review Section ******/
+  .reviews {
+    flex-direction: column-reverse;
+    margin: 24px 24px 0px 24px;
+    gap: 30px;
+  }
+  .review-card {
+    height: 750px;
+  }
+
+  .review-paragraph br,
+  .review-text br {
+    display: none;
+  }
+  .review-paragraph {
+    padding-right: 15px;
+  }
+  .review-paragraph h3 {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0px 20px 16px 0px;
+  }
+  .bottom-card,
+  .front-card {
+    width: 100%;
+    height: auto;
+    padding: 35px;
+  }
+  .review-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .review-card img {
+    width: 60%;
+    height: auto;
+  }
+  .reviewer-profile img {
+    width: 30%;
+    height: auto;
+  }
+  .bottom-card {
+    top: 160px;
+    right: 10px;
+    opacity: 60%;
+  }
+  .front-card {
+    left: 0px;
+    bottom: 510px;
+  }
+  .review-button {
+    display: none;
+  }
+  .mq-review-button {
+    width: 20%;
+    display: flex;
+    position: relative;
+    bottom: 470px;
+    left: 275px;
+    gap: 16px;
+    z-index: 3;
+  }
+
+  /******create-new-acc-section******/
+  .create-new-acc {
+    margin-top: 40px;
+    padding: 0;
+  }
+  .create-container {
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px 0px;
+    gap: 30px;
+  }
+  .create-acc-text {
+    font-size: 24px;
+    line-height: 34px;
+  }
+  .arrow {
+    display: none;
+  }
+
+  .vertical-arrow {
+    display: block;
+    position: relative;
+    bottom: 10px;
+    right: 90px;
+  }
 }

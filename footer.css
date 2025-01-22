@@ -1,128 +1,124 @@
 :root {
-    --footer-font-color:rgba(178, 178, 178, 1);
-    --footer-menu-font-color:rgba(242, 242, 242, 1);
+  --footer-font-color: rgba(178, 178, 178, 1);
+  --footer-menu-font-color: rgba(242, 242, 242, 1);
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .footer-menu {
-    display:flex;
-    justify-content: space-between;
-    gap: 180px;
-    padding: 50px 0px;
-    border-bottom: 1px solid rgba(178, 178, 178, 0.2);
+  display: flex;
+  justify-content: space-between;
+  gap: 180px;
+  padding: 50px 0px;
+  border-bottom: 1px solid rgba(178, 178, 178, 0.2);
 }
 .website-socialmedia {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
-    width: 74px;
-    height: 43px;
-    margin: 5px;
+  width: 74px;
+  height: 43px;
+  margin: 5px;
 }
 
 .website-socialmedia span {
-    font-family: "Rubik";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 2;
-    color:var(--footer-font-color);
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  color: var(--footer-font-color);
 }
 
-
 .contact-icon {
-    display: flex;
-    margin-top: 50px;
-    gap: 7px;
+  display: flex;
+  margin-top: 50px;
+  gap: 7px;
 }
 
 .contact-icon-bottom {
-    display: none;
+  display: none;
 }
 
-
 .footer-menu ul {
-    line-height: 3;
-    list-style-type: none;
+  line-height: 3;
+  list-style-type: none;
 }
 
 .footer-menu h5 {
-    font-family: "Poppins";
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 30px;
-    color: var(--footer-menu-font-color);
-    margin-bottom: 20px;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--footer-menu-font-color);
+  margin-bottom: 20px;
 }
-
 
 .footer-menu a {
-    font-family: "Rubik";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 18px;
-    color:var(--footer-font-color);
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+  color: var(--footer-font-color);
 }
 
-
-.call, .email , .address {
-    font-family: "Rubik";
-    font-size: 16px;
-    font-weight: 400;
-    color:var(--footer-menu-font-color);
+.call,
+.email,
+.address {
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--footer-menu-font-color);
 }
 
 .contact span:not([class]) {
-    font-size: 14px;
-    font-family: "Rubik";
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--footer-font-color);
+  font-size: 14px;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--footer-font-color);
 }
 
-
 .footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color:rgba(17, 17, 22, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(17, 17, 22, 1);
 }
 
 .copyright {
-    font-family: "Rubik";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 32px;
-    color:var(--footer-font-color);
-    margin: 20px 0px;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--footer-font-color);
+  margin: 20px 0px;
 }
 
-@media only screen and (max-width:600px) {
-    .footer-container {
-        align-items:flex-start;
-        padding: 0px 24px;
-    }
-    .footer-menu{
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-        padding: 0px;
-        margin-top: 80px;
-    }
+@media only screen and (max-width: 600px) {
+  .footer-container {
+    align-items: flex-start;
+    padding: 0px 24px;
+  }
+  .footer-menu {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 0px;
+    margin-top: 80px;
+  }
 
-    .contact-icon {
-        display: none;
-    }
-    .contact-icon-bottom {
-        display: flex;
-        gap: 7px;
-        margin-bottom: 30px;
-    }
-
+  .contact-icon {
+    display: none;
+  }
+  .contact-icon-bottom {
+    display: flex;
+    gap: 7px;
+    margin-bottom: 30px;
+  }
 }
